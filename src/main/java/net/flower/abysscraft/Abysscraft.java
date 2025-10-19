@@ -15,11 +15,11 @@ public class Abysscraft implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-        CustomPortalBuilder.beginPortal()
-                .frameBlock(Blocks.DIAMOND_BLOCK)
-                .lightWithItem(Items.DIAMOND_SWORD)
-                .destDimID(Identifier.of(MOD_ID, "abyss"))
-                .tintColor(0, 0, 0)
-                .registerPortal();
+//        CustomPortalBuilder.beginPortal()
+//                .frameBlock(Blocks.DIAMOND_BLOCK)
+//                .lightWithItem(Items.DIAMOND_SWORD)
+//                .destDimID(Identifier.of(MOD_ID, "abyss"))
+//                .tintColor(0, 0, 0)
+//                .registerPortal();
 	}
 }

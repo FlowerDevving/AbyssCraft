@@ -2,7 +2,7 @@
   "type": "abysscraft:abyss_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:floating_islands",
+    "settings": "minecraft:large_biomes",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
