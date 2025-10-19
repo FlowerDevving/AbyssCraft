@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "abysscraft",
+	"version": "${version}",
+	"name": "Abysscraft",
+    "description": "\"Back to the good mods\" - Flower",
+	"authors": [
+		"DC: hello_985 / MC:EndxelDev"
+	],
+	"contact": {
+		"homepage": "discord.com/.....",
+		"sources": "github.com/....."
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/abysscraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.flower.abysscraft.Abysscraft"
+		],
+		"fabric-datagen": [
+			"net.flower.abysscraft.AbysscraftDataGenerator"
+		],
+        "client" : [
+            "net.flower.abysscraft.AbysscraftClient"
+        ]
+	},
+	"mixins": [
+		"abysscraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

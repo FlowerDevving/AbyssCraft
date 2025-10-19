@@ -1,0 +1,36 @@
+{
+  "type": "abysscraft:abyss_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:floating_islands",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:badlands",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:dark_forest",
+          "parameters": {
+            "temperature": -0.02,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": -0.1,
+            "weirdness": 0.01,
+            "depth": 0.1,
+            "offset": 0.2
+          }
+        }
+      ]
+    }
+  }
+}
