@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "abysscraft:charred_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 50,
+        "spacing": 40,
+        "separation": 20,
+        "type": "minecraft:random_spread"
+    }
+}
